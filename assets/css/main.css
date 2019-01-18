@@ -1,5 +1,15 @@
-.container .header {
-  padding: 50px; }
+.container {
+  background-color: #faebd7;
+  padding: 0 50px !important;
+  letter-spacing: 0.3; }
+  .container .iconic-reps:before {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: text-bottom; }
+  .container .padding-box-border {
+    padding: 50px 0;
+    border-bottom: 1px solid #e7e7e7; }
   .container .header .profile-photo {
     width: 200px;
     height: 200px;
@@ -11,3 +21,33 @@
   .container .header .profile-information {
     font-family: 'Montserrat', sans-serif;
     margin-top: 64px; }
+    .container .header .profile-information .name {
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 10px; }
+    .container .header .profile-information .role {
+      font-size: 16px; }
+      .container .header .profile-information .role:before {
+        content: url("../svg/portfolio.svg"); }
+  .container .body .section .section-title {
+    color: #B39466;
+    margin-bottom: 15px; }
+  .container .body .section .section-body {
+    font-size: 14px; }
+    .container .body .section .section-body .sub-section {
+      margin-bottom: 10px; }
+      .container .body .section .section-body .sub-section .sub-section-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 3px;
+        vertical-align: top; }
+      .container .body .section .section-body .sub-section .address {
+        display: inline-block;
+        word-break: break-word; }
+      .container .body .section .section-body .sub-section .social-link {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-right: 10px; }
+  .container .body .section:first-of-type {
+    border-right: 1px solid #e7e7e7; }
