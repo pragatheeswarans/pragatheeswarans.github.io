@@ -29,25 +29,27 @@
       font-size: 16px; }
       .container .header .profile-information .role:before {
         content: url("../svg/portfolio.svg"); }
-  .container .body .section .section-title {
-    color: #B39466;
-    margin-bottom: 15px; }
-  .container .body .section .section-body {
-    font-size: 14px; }
-    .container .body .section .section-body .sub-section {
-      margin-bottom: 10px; }
-      .container .body .section .section-body .sub-section .sub-section-icon {
-        width: 20px;
-        height: 20px;
-        margin-right: 3px;
-        vertical-align: top; }
-      .container .body .section .section-body .sub-section .address {
-        display: inline-block;
-        word-break: break-word; }
-      .container .body .section .section-body .sub-section .social-link {
-        width: 30px;
-        height: 30px;
-        display: inline-block;
-        margin-right: 10px; }
-  .container .body .section:first-of-type {
-    border-right: 1px solid #e7e7e7; }
+  .container .body .section {
+    margin-bottom: 20px; }
+    .container .body .section .section-title {
+      color: #8a5404;
+      margin-bottom: 15px; }
+    .container .body .section .section-body {
+      font-size: 14px; }
+      .container .body .section .section-body .sub-section {
+        margin-bottom: 10px; }
+        .container .body .section .section-body .sub-section .sub-section-icon {
+          width: 20px;
+          height: 20px;
+          margin-right: 3px;
+          vertical-align: top; }
+        .container .body .section .section-body .sub-section .address {
+          display: inline-block;
+          word-break: break-word; }
+        .container .body .section .section-body .sub-section .social-link {
+          width: 30px;
+          height: 30px;
+          display: inline-block;
+          margin-right: 10px; }
+    .container .body .section:first-of-type {
+      border-right: 1px solid #e7e7e7; }
